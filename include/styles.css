@@ -1,0 +1,197 @@
+@font-face {
+    font-family: "WS-Mainfont";
+    src: url(/include/fonts/BPdotsSquareBold.woff);
+    font-weight: normal;
+}
+
+html {
+    font-family: WS-Mainfont, Arial, Helvetica, sans-serif;
+    color: white;
+}
+/* background formatting */
+body {
+    margin: 0;
+    background: linear-gradient(to right, rgb(5, 7, 15), transparent, rgb(5, 7, 15));
+    background-color: rgb(0, 51, 52)
+}
+/* fix header and p padding */
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+/* header section */
+header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    /*background-color: #6666;
+    border: 2px solid black;*/
+    border-radius: 0.5em;
+    max-width: 800px;
+}
+/* section that contains <header/> to allow for maxwidth */
+#headercontainer {
+    /*border-bottom-left-radius: 0.5em;*/
+    /*border-bottom-right-radius: 0.5em;*/
+    background-color: #008888;
+    border-bottom: 4px solid rgb(26, 85, 74);
+}
+/* footer section */
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+/* links and quote section of the header */
+.PageTitleInnerLR {
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+/* page title section of the header */
+.PageTitleInnerC {
+    font-stretch: expanded;
+}
+/* page's main content section */
+article {
+    /* Margins, padding */
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 1000px;
+    /* Border gradient */
+}
+/* Header links */
+.HeaderLink {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+/* page content divs and respective component styling */
+.ArticleBoxHeader {
+    text-align: center;
+}
+.ArticleBoxContainer {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    padding: 8px;
+}
+.ArticleBox1 {
+    flex: 1 1 100px;
+    /*border: 8px ridge grey;*/
+    border: 8px ridge #3377aa;
+    padding: 8px;
+    margin: 8px;
+    min-width: 200px;
+    max-width: 1000px;
+    color: rgb(0, 255, 200);
+}
+.ArticleBoxBlack {
+    background-color: #000;
+}
+.ArticleBoxRed {
+    background-color: #dd6644;
+}
+.ArticleBoxYellow {
+    background-color: #cccc00;
+}
+.ArticleBoxBlue {
+    background-color: #6666ff;
+}
+.ArticleBoxGreen {
+    background-color: #66aa66;
+}
+.ArticleBoxPurple {
+    background-color: #ba65ff;
+}
+.ArticleBoxTransparentBlack {
+    background-color: #00000044;
+}
+/* Buttons */
+.Button1 {
+    display: flex;
+    padding: 8px;
+    margin: 4px;
+    border-style: outset;
+    border-width: 4px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+.Button1:active {
+    border-style: inset;
+}
+.ButtonGrey {
+    background-color: #888;
+    border-color: #888;
+}
+.ButtonGreen {
+    background-color: #59d61f;
+    border-color: #59d61f;
+}
+.ButtonTurquoise {
+    background-color: #23a59b;
+    border-color: #23a59b;
+}
+.ButtonBlue {
+    background-color: #6666ff;
+    border-color: #6666ff;
+}
+.ButtonPurple {
+    background-color: #ba65ff;
+    border-color: #ba65ff;
+}
+
+/* Text effects */
+.texteffects-rainbow1 {
+	animation: text-rainbow 24s linear 0s infinite;
+}
+@keyframes text-rainbow {
+	from {
+		color: #ff0000;
+	}
+	10% {
+		color: #ff9900;
+	}
+	20% {
+		color: #ccff00;
+	}
+	30% {
+		color: #32ff00;
+	}
+	40% {
+		color: #00ff65;
+	}
+	50% {
+		color: #00ffff;
+	}
+	60% {
+		color: #0065ff;
+	}
+	70% {
+		color: #3300ff;
+	}
+	80% {
+		color: #cb00ff;
+	}
+	90% {
+		color: #ff0098;
+	}
+	100% {
+		color: #ff0000;
+	}
+}

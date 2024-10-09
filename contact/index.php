@@ -5,11 +5,12 @@ $awp_browser_title = "Contact";
 ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . "/include/components/header.php" ?>
 <h1>Contact</h1>
-<p>Feel free to contact us using the below details!</p>
+<p>Feel free to contact us using the details below!</p>
 <div class="ArticleBoxContainer">
 	<div class="ArticleBox1 ArticleBoxBlack">
 		<h1 class="ArticleBoxHeader">Discord</h1>
-		<p>If you're a current student or are joining in the future, feel free to chat with us here! Membership not required.</p>
+		<p>If you're a current student or are joining in the future, feel free to chat with us here!</p>
+		<p>Membership not required.</p>
 		<a class="Button1 ButtonBlue" href="https://discord.com/invite/hKfarpucqc">Join our Discord server!</a>
 	</div>
 	<div class="ArticleBox1 ArticleBoxBlack">

@@ -18,25 +18,26 @@ $awp_browser_title = "Events";
 	</div>
 </div>
 <h1>Planned events</h1>
+<p>Note that dates may be subject to change, even at short notice.</p>
 <div class="ArticleBoxContainer">
 	<div class="ArticleBox1 ArticleBoxBlack">
 		<h1 class="ArticleBoxHeader">Game Jam</h1>
-		<h2>November 26th</h2>
+		<h2>TBC - likely November 19th</h2>
 		<p>Learn about game development and aim to make the best game you can in a small timeframe.</p>
 	</div>
 	<div class="ArticleBox1 ArticleBoxBlack">
 		<h1 class="ArticleBoxHeader">Hackathon</h1>
-		<h2><i>TBC - early Semester 2</i></h2>
+		<h2>TBC - early Semester 2</h2>
 		<p>We're trying new things this year! Theme TBC.</p>
 	</div>
 	<div class="ArticleBox1 ArticleBoxBlack">
 		<h1 class="ArticleBoxHeader">NerdKon 2025</h1>
-		<h2><i>February 24th-25th</i></h2>
+		<h2>February 24th-25th</h2>
 		<p>We help run a convention alongside KURA and KCG, there'll be board games, consoles, tournaments and more!</p>
 	</div>
 	<div class="ArticleBox1 ArticleBoxBlack">
 		<h1 class="ArticleBoxHeader">Cybersecurity Event</h1>
-		<h2><i>TBC - late Semester 2</i></h2>
+		<h2>TBC - late Semester 2</h2>
 		<p>Security is an important thing, and what better way to learn than breaking into things! More details to be confirmed when we have a sponsor for this event.</p>
 	</div>
 </div>

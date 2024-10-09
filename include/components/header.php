@@ -11,8 +11,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- OpenGraph tags -->
         <meta property="og:title" content="<?php echo $awp_page_title; ?>" />
-        <meta property="og:description" content="<?php echo $awp_browser_title; ?> @ Arlie's Site" />
-        <meta property="og:site_name" content="Arlie's Site" />
+        <meta property="og:description" content="<?php echo $awp_browser_title; ?> at Hack Keele" />
+        <meta property="og:site_name" content="Hack Keele" />
     </head>
     <body>
         <div id="headercontainer">

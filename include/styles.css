@@ -12,7 +12,7 @@ html {
 body {
     margin: 0;
     background: linear-gradient(to right, rgb(5, 7, 15), transparent, rgb(5, 7, 15));
-    background-color: rgb(0, 51, 52)
+    background-color: rgb(0, 31, 32)
 }
 /* fix header and p padding */
 h1, h2, h3, h4, h5, h6, p {
@@ -35,8 +35,8 @@ header {
 #headercontainer {
     /*border-bottom-left-radius: 0.5em;*/
     /*border-bottom-right-radius: 0.5em;*/
-    background-color: #008888;
-    border-bottom: 4px solid rgb(26, 85, 74);
+    background-color: #006666;
+    border-bottom: 4px solid #004444;
 }
 /* footer section */
 footer {

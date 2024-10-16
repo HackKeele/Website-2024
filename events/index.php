@@ -22,8 +22,9 @@ $awp_browser_title = "Events";
 <div class="ArticleBoxContainer">
 	<div class="ArticleBox1 ArticleBoxBlack">
 		<h1 class="ArticleBoxHeader">Game Jam</h1>
-		<h2>TBC - likely November 19th</h2>
+		<h2>November 9th, 10am-8pm</h2>
 		<p>Learn about game development and aim to make the best game you can in a small timeframe.</p>
+		<p>The theme this time is Halloween, which can be interpreted however you wish, whether that means monsters, horror or intentional bugs!</p>
 	</div>
 	<div class="ArticleBox1 ArticleBoxBlack">
 		<h1 class="ArticleBoxHeader">Hackathon</h1>
@@ -38,7 +39,11 @@ $awp_browser_title = "Events";
 	<div class="ArticleBox1 ArticleBoxBlack">
 		<h1 class="ArticleBoxHeader">Cybersecurity Event</h1>
 		<h2>TBC - late Semester 2</h2>
-		<p>Security is an important thing, and what better way to learn than breaking into things! More details to be confirmed when we have a sponsor for this event.</p>
+		<p>Security is important, and what better way to learn than breaking into things! More details to be confirmed when we have a sponsor for this event.</p>
+	</div>
+	<div class="ArticleBox1 ArticleBoxBlack">
+		<h1 class="ArticleBoxHeader">Robotics Event</h1>
+		<h2>TBC</h2>
 	</div>
 </div>
 <?php include $_SERVER['DOCUMENT_ROOT'] . "/include/components/footer.php" ?>

@@ -8,7 +8,7 @@ $awp_browser_title = "Events";
 <p>We hold multiple events throughout the year, ranging from game jams to hackathons.</p>
 <p>We also meet regularly each week.</p>
 <p>You don't need membership to attend these, but it does help us out, even though it's free.</p>
-<h1>Regularly scheduled events</h1>
+<h1>Regular events</h1>
 <div class="ArticleBoxContainer">
 	<div class="ArticleBox1 ArticleBoxBlack">
 		<h1 class="ArticleBoxHeader">Weekly Socials</h1>
@@ -20,6 +20,11 @@ $awp_browser_title = "Events";
 <h1>Planned events</h1>
 <p>Note that dates may be subject to change, even at short notice.</p>
 <div class="ArticleBoxContainer">
+	<div class="ArticleBox1 ArticleBoxBlack">
+		<h1 class="ArticleBoxHeader">Game Jam Resources</h1>
+		<h2>TBC, on a Wednesday, 5pm-8pm</h2>
+		<p>Learn and discuss some of the tools that you can use in our upcoming Game Jam!</p>
+	</div>
 	<div class="ArticleBox1 ArticleBoxBlack">
 		<h1 class="ArticleBoxHeader">Game Jam</h1>
 		<h2>November 9th, 10am-8pm</h2>
